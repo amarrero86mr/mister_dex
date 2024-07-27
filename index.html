@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocuDex</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+    <h1>La PoKeMister</h1>
+    <div>
+        <input id="search_pkm" type="search">
+        <button for="search_pkm" class="button_search"><img src="./img/magnifying-glass-solid.svg" alt=""></button>
+    </div>
+    </header>
+    <main>
+        <section>
+            <h2>selecciona por tipo</h2>
+            <select id="type_pkm"></select>
+        </section>
+        <div class="btns_recorrer">
+            <button id="btn_izquierda"><img class="izquierda" src="./img/caret-left-solid.svg" alt="Flecha izquierda"></button>
+            <button id="btn_derecha"><img src="./img/caret-right-solid.svg" alt="Flecha derecha"></button>
+        </div>
+        <div id="contenedor-tarjetas"></div>
+    </main>
+
+    <footer></footer>
+    
+    <script src="./app.js"></script>
+    <script src="./constrol_arrows.js"></script>
+    <script src="./filtros.js"></script>
+
+    
+</body>
+</html>
